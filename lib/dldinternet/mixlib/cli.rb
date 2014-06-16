@@ -4,7 +4,7 @@ require "mixlib/cli"
 module Dldinternet
   module Mixlib
     module CLI
-      include Mixlib::CLI
+      include ::Mixlib::CLI
     end
   end
 end
