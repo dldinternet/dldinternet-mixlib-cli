@@ -5,7 +5,7 @@ require 'dldinternet/mixlib/cli/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "dldinternet-mixlib-cli"
-  spec.version       = Dldinternet::Mixlib::CLI::VERSION
+  spec.version       = DLDInternet::Mixlib::CLI::VERSION
   spec.authors       = ["Christo De Lange"]
   spec.email         = ["rubygems@dldinternet.com"]
   spec.summary       = %q{A custom CLI mixlib inspired by Chef and Mixlib::CLI}
