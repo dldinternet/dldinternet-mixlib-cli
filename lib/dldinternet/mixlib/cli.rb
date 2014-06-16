@@ -1,9 +1,10 @@
 require "dldinternet/mixlib/cli/version"
+require "mixlib/cli"
 
 module Dldinternet
   module Mixlib
-    module Cli
-      # Your code goes here...
+    module CLI
+      include Mixlib::CLI
     end
   end
 end

@@ -1,6 +1,6 @@
 # Dldinternet::Mixlib::Cli
 
-TODO: Write a gem description
+A custom CLI mixlib inspired by Chef and Mixlib::CLI
 
 ## Installation
 
