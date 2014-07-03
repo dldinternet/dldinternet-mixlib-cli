@@ -7,6 +7,8 @@ unless defined? ::DLDInternet::Mixlib::CLI::ClassMethods
         module ClassMethods
         end
 
+        require "dldinternet/mixlib/cli/mixins/parsers"
+        include Parsers
         # ----------------------------------------------------------------------------------------------------------------
         # InstanceMethods
         # ----------------------------------------------------------------------------------------------------------------
